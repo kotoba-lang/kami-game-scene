@@ -8,7 +8,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene.character)))))
+    (is (some? (find-ns 'game-scene.character)))))
 
 ;; ── character.rs #[cfg(test)] ───────────────────────────────────────────
 

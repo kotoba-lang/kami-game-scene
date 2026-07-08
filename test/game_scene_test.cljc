@@ -9,7 +9,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene)))))
+    (is (some? (find-ns 'game-scene)))))
 
 ;; ── lib.rs #[cfg(test)] ─────────────────────────────────────────────────
 

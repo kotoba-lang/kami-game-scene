@@ -8,7 +8,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene.item-catalog)))))
+    (is (some? (find-ns 'game-scene.item-catalog)))))
 
 ;; ── item_catalog.rs #[cfg(test)] ────────────────────────────────────────
 

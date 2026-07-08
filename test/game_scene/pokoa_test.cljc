@@ -19,7 +19,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene.pokoa)))))
+    (is (some? (find-ns 'game-scene.pokoa)))))
 
 (defn- normalize-dash [s]
   (str/replace s "—" "--"))

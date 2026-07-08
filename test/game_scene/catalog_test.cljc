@@ -9,7 +9,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene.catalog)))))
+    (is (some? (find-ns 'game-scene.catalog)))))
 
 ;; ── catalog.rs #[cfg(test)] ───────────────────────────────────────────────
 

@@ -8,7 +8,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene.brainrot)))))
+    (is (some? (find-ns 'game-scene.brainrot)))))
 
 ;; ── brainrot.rs #[cfg(test)] ────────────────────────────────────────────
 

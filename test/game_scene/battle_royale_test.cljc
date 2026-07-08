@@ -8,7 +8,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'game-scene.battle-royale)))))
+    (is (some? (find-ns 'game-scene.battle-royale)))))
 
 ;; ── battle_royale.rs #[cfg(test)] ───────────────────────────────────────
 
