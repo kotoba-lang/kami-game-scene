@@ -14,7 +14,7 @@
   field/species; it does not affect [[game-scene.pokoa/dex-specs-from-edn]]
   or any other library code, which keeps the em dash verbatim."
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [game-scene.pokoa :as pokoa]))
 
 (deftest smoke-test
