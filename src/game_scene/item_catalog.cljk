@@ -11,7 +11,7 @@
   CPC/UNSPSC codes) — moves to EDN (ADR-0046 / ADR-0038).
   [[items-from-edn]] rebuilds the real `game.sabiotoshi` item list,
   asserted item-for-item `=` the compiled-in `default-item-catalog` in
-  `test/game_scene/item_catalog_test.cljc`.
+  `test/game_scene/item_catalog_test.cljk`.
 
   `game.sabiotoshi` represents 3-vectors (rust-zone `:center`/`:extent`,
   disassembly-step `:detach-offset`) as `{:x :y :z}` maps (its local

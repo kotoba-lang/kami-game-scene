@@ -16,7 +16,7 @@
   ported the whole species table as plain owned CLJC data, so no such
   split is needed here: [[dex-specs-from-edn]] rebuilds real
   `game.pokoa/pokoa-dex`-shaped maps directly, parity-tested `=` the
-  compiled-in dex in `test/game_scene/pokoa_test.cljc`.
+  compiled-in dex in `test/game_scene/pokoa_test.cljk`.
 
   Zero-dep portable CLJC."
   (:require [scene :as scene]
