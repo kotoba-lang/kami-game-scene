@@ -107,5 +107,5 @@ namespace — 56 tests / 595 assertions, 0 failures.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
