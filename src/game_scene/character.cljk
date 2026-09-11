@@ -10,7 +10,7 @@
   + appearance + spawn points) — moves to EDN (ADR-0046 / ADR-0038).
   [[characters-from-edn]] rebuilds the real
   `game.island-gen/character-def` list, asserted `=` the compiled-in
-  `brainrot-characters` in `test/game_scene/character_test.cljc`.
+  `brainrot-characters` in `test/game_scene/character_test.cljk`.
 
   Zero-dep portable CLJC."
   (:require [scene :as scene]

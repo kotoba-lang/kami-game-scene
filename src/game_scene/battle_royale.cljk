@@ -13,7 +13,7 @@
   (ADR-0046 / ADR-0038). [[storm-phases-from-edn]] / [[weapons-from-edn]] /
   [[consumables-from-edn]] rebuild the real `game.battle-royale` maps,
   asserted `=` the compiled-in oracles in
-  `test/game_scene/battle_royale_test.cljc`.
+  `test/game_scene/battle_royale_test.cljk`.
 
   `game.battle-royale`'s rarity/consumable-type/weapon-type keywords are
   already hyphenated ids (e.g. `:small-shield`, `:assault-rifle`), so

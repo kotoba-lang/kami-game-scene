@@ -11,7 +11,7 @@
   ADR-0038). [[chains-from-edn]] rebuilds the real
   `game.island-gen/brainrot-evolution` list, asserted chain-for-chain,
   stage-for-stage `=` the compiled-in `brainrot-evolution-chains` in
-  `test/game_scene/brainrot_test.cljc`.
+  `test/game_scene/brainrot_test.cljk`.
 
   Simplification vs the original Rust: `BrainrotEvolution`/`EvolutionStage`
   derived no `PartialEq` there, so the crate carried local

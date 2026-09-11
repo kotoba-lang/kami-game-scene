@@ -10,7 +10,7 @@
   metadata table (slug / title / genre / max-players / description) —
   moves to EDN (ADR-0046 / ADR-0038). [[catalog-from-edn]] rebuilds the
   real `game.island-gen/game-def` list, asserted entry-for-entry `=` the
-  compiled-in `godot-game-catalog` in `test/game_scene/catalog_test.cljc`.
+  compiled-in `godot-game-catalog` in `test/game_scene/catalog_test.cljk`.
 
   Simplification vs the original Rust: `GameDef`/`Genre` derived no
   `PartialEq` there, so the crate carried a local `GameDefSpec` mirror.

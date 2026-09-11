@@ -93,7 +93,7 @@ malformed EDN, mirroring the original Rust `Error`/`*Error` enums.
 
 `game.pokoa/pokoa-dex` (in the read-only `kotoba-lang/game` dependency) transcribed species #7
 Ohiolet's description with a plain ASCII `--` where the canonical `pokoa_dex.edn` (byte-identical
-to the deleted Rust crate's shipped data) has an em dash `—`. `test/game_scene/pokoa_test.cljc`
+to the deleted Rust crate's shipped data) has an em dash `—`. `test/game_scene/pokoa_test.cljk`
 documents and normalizes this one field for its parity assertion; the library code
 (`game-scene.pokoa/dex-specs-from-edn`) is unaffected and keeps the em dash verbatim, since
 `kotoba-lang/game` is not modified by this crate.
