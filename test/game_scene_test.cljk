@@ -3,7 +3,7 @@
   Rust crate's `src/lib.rs` `#[cfg(test)] mod tests` AND
   `tests/animation_parity.rs` (both deleted in kotoba-lang/kami-engine PR
   #82), plus a namespace-loads smoke test."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [game-scene :as game-scene]
             [game.animation :as animation]))
 
